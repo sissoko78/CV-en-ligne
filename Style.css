@@ -1,0 +1,74 @@
+/*mettre le corps en format A4*/
+body {
+    width: 21cm; /* Largeur de la page A4 */
+    height: 29.7cm; /* Hauteur de la page A4 */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    background-color: #ffffff; /* Couleur de fond de la page */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour simuler l'épaisseur de la feuille */
+    box-sizing: border-box; /* Inclut le padding et la bordure dans les dimensions spécifiées */
+}
+/*mettre la couleur bleu-nuit sur le fond*/
+.entete{
+    width: 100%;
+    height: 110px;
+    background-color: #2A354B;
+}
+/*bouger l'ecriture vers l'interieur et donner la coloration blanche à h1 et h2*/
+h1,h2{
+    padding-left: 100px;
+    color: white;
+}
+/*appliquer le gris sur la class div, la positionner vers la droite et lui donner une bordure ronde*/
+.droite{
+    background-color: rgb(185, 185, 187);
+    position: relative;
+    width: 230px;
+    height: 1070px;
+    float: right;
+    top: 50px;
+    border: 3px rgb(185, 185, 187) solid;
+    border-radius: 40px;
+}
+/*alligner l'image au centre*/
+.image{
+    text-align:  center;
+}
+/*alligner le texte au centre*/
+h3{
+    text-align: center;
+}
+.icone{
+    text-align: center;
+    width: 20px;
+    height: 10%;
+    
+    margin-top: 1px;
+    margin-left: 3px;
+}
+p{
+    margin: 5px;
+}
+h4{
+    text-align: center;
+}
+h5{
+
+    padding-left: 50px;
+}
+/* GL signifie grande ligne*/
+.GL{
+    color:black ;
+    background-color: rgb(185, 185, 187);
+    width: 300px;
+    height: 35px;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 150px;
+    box-shadow: 5px 5px 10px rgb(120, 120, 128);
+}
+.paragraphe{
+    margin-left: 40px;
+    
+}
+.id{
+    margin-left: 100px;
+}
