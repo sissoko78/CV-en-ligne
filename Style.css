@@ -50,6 +50,7 @@ p{
 }
 h4{
     text-align: center;
+   
 }
 h5{
 
@@ -71,4 +72,12 @@ h5{
 }
 .id{
     margin-left: 100px;
+}
+.trait {
+    margin-left: 10%;
+    border-left: 2px solid black;
+}
+.trait2{
+    margin-left: 3%;
+    border-left: 2px solid black;
 }
